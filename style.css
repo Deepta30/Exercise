@@ -1,0 +1,117 @@
+.bg-image-1,
+.bg-image-2,
+.bg-image-3 {
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-caption {
+  width: 100%;
+  margin-left: -14.2rem;
+  margin-bottom: -20px;
+  height: 270px;
+  /* background-color: red; */
+  padding: 50px 20px 0 20px;
+}
+
+.caption-1 .btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-img-top {
+  background-image: url(./asset/italia.jpg);
+}
+
+.left {
+  margin: auto;
+  width: 50px;
+  height: 70px;
+  background-color: rgba(244, 244, 244, 0.164);
+  border-radius: 10px;
+}
+
+.right {
+  margin: auto;
+  width: 50px;
+  height: 70px;
+  background-color: rgba(244, 244, 244, 0.164);
+  border-radius: 10px;
+}
+
+.contact {
+  margin-top: 20px;
+}
+
+.contact a {
+  display: inline-flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+  width: 35px;
+  border-radius: 10px;
+  color: rgb(59, 62, 65);
+  transition: .3s;
+}
+
+.contact a:hover {
+  transform: translateY(-10px);
+  transition: .3s;
+}
+
+/* Destination card */
+.price {
+  font-size: 15px;
+}
+
+.main.price {
+  text-decoration: line-through;
+}
+
+.diskon {
+  color: rgb(255, 119, 0);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .carousel-caption {
+    margin: 0 auto;
+    margin-left: -4.5rem;
+    padding: 0.5rem;
+  }
+
+  .caption-1 {
+    display: flex;
+    height: 100px;
+    margin-bottom: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.caption-1 h1,
+.caption-1 .describe {
+    display: none;
+}
+
+.caption-1 .btn {
+    height: 50px;
+}
+
+.caption-2 {
+    height: 100px;
+    margin-bottom: 60px;
+
+}
+
+.caption-3 {
+    height: 100px;
+    margin-bottom: 60px;
+}
+.caption-3 h1, 
+.caption-3 p {
+  text-align: center;
+}
+}
