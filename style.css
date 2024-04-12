@@ -79,6 +79,7 @@
     margin: 0 auto;
     margin-left: -4.5rem;
     padding: 0.5rem;
+    background-color: aqua;
   }
 
   .caption-1 {
@@ -87,8 +88,9 @@
     margin-bottom: 60px;
     justify-content: center;
     align-items: center;
-    gap: 15px;
-    width: 100%;
+    gap: 5px;
+    margin-left: -59px;
+    width: 400px;
 }
 
 .caption-1 h1,
@@ -98,17 +100,21 @@
 
 .caption-1 .btn {
     height: 50px;
+    width: 200px;
+    font-size: 15px;
 }
 
 .caption-2 {
     height: 100px;
     margin-bottom: 60px;
+    margin-left: -60px;
 
 }
 
 .caption-3 {
     height: 100px;
     margin-bottom: 60px;
+    margin-left: -60px;
 }
 .caption-3 h1, 
 .caption-3 p {
