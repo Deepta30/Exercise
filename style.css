@@ -14,6 +14,11 @@
   padding: 50px 20px 0 20px;
 }
 
+.caption-1 {
+  background:red;
+  padding-top: 70px;
+}
+
 .caption-1 .btn {
   display: inline-flex;
   justify-content: center;
@@ -86,7 +91,7 @@
     align-items: center;
     padding: 0.5rem;
     margin-bottom: 40px;
-    margin-left: -55px;
+    margin-left: -60px;
   }
 
   .caption-1 {
