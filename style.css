@@ -60,6 +60,10 @@
   transition: .3s;
 }
 
+.des-img-1.japan:hover {
+  opacity: 0.3;
+}
+
 /* Destination card */
 .price {
   font-size: 15px;
@@ -76,20 +80,21 @@
 /* Media Queries */
 @media (max-width: 768px) {
   .carousel-caption {
-    margin: 0 auto;
-    margin-left: -4.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 0.5rem;
+    margin-bottom: 40px;
   }
 
   .caption-1 {
     display: flex;
+    align-items: end;
     height: 100px;
-    margin-bottom: 60px;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
     gap: 5px;
     margin-left: -50px;
-    width: 400px;
 }
 
 .caption-1 h1,
@@ -98,22 +103,19 @@
 }
 
 .caption-1 .btn {
-    height: 50px;
-    width: 200px;
-    font-size: 15px;
+    height: 30px;
+    width: 150px;
+    font-size: 10px;
 }
 
 .caption-2 {
     height: 100px;
-    margin-bottom: 60px;
-    margin-left: -64px;
-
+    margin-left: -50px;
 }
 
 .caption-3 {
     height: 100px;
-    margin-bottom: 60px;
-    margin-left: -64px;
+    margin-left: -50px;
 }
 .caption-3 h1, 
 .caption-3 p {
