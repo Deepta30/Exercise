@@ -86,6 +86,7 @@
     align-items: center;
     padding: 0.5rem;
     margin-bottom: 40px;
+    margin-left: -53px;
   }
 
   .caption-1 {
@@ -94,7 +95,6 @@
     height: 100px;
     flex-direction: row;
     gap: 5px;
-    margin-left: -50px;
 }
 
 .caption-1 h1,
@@ -110,12 +110,10 @@
 
 .caption-2 {
     height: 100px;
-    margin-left: -50px;
 }
 
 .caption-3 {
     height: 100px;
-    margin-left: -50px;
 }
 .caption-3 h1, 
 .caption-3 p {
